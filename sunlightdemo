@@ -1,0 +1,4 @@
+import json
+a={"company":"sunlight technologies","place":"delhi","employees":[{"name":"rahul siddu","age":21},{"name":"utkarsh","age":21},{"name":"manpreet","age":21}]}
+b=json.dumps(a,indent=4)
+print(b)
