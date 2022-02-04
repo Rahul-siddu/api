@@ -1,1 +1,1 @@
-web: gunicorn app:apiweather
+web: python apiweather.py
